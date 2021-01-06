@@ -14,7 +14,7 @@ import java.util.Arrays
 
 object Hudi {
 
-  val HUDI_BASE_PATH = "C:\\Work\\CA\\deltalake\\hudi\\data\\"
+  val HUDI_BASE_PATH = "C:\\deltalake\\hudi\\data\\"
   val TABLE_NAME = "hudi_table_for_comparison"
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
