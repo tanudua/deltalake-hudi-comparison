@@ -11,7 +11,7 @@ import java.io.File
 
 object DeltaLake {
 
-  val DELTA_BASE_PATH = "C:\\Work\\CA\\deltalake\\deltalake\\data\\golden\\"
+  val DELTA_BASE_PATH = "C:\\deltalake\\deltalake\\data\\golden\\"
   val TABLE_NAME = "delta_table_for_comparison"
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
